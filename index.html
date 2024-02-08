@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+
+      nav {
+          background-color: #333;
+          padding: 10px;
+          width: 100%;
+          text-align: center;
+      }
+
+      nav a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 15px;
+          font-size: 16px;
+      }
+      
+      body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+      }
+
+      .about-container {
+          width: 100%;
+          max-width: 200px; /* Adjust the max-width as needed */
+          margin: 15px;
+          background-color: #fff;
+          border-radius: 10px;
+          overflow: hidden;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .profile-image {
+          width: 100%;
+          max-width: 100%; /* Ensure the image takes the full width of its container */
+          height: auto;
+          transition: transform 0.3s ease-in-out;
+          cursor: pointer;
+      }
+
+      .profile-image:hover {
+          transform: scale(1.2);
+      }
+
+      .profile-image.rotate {
+          transform: scale(1.2) rotate(180deg);
+      }
+
+      .about-content {
+          padding: 20px;
+          text-align: center;
+      }
+
+      h1 {
+          margin-bottom: 10px;
+          color: #333;
+      }
+
+      p {
+          color: #666;
+          line-height: 1.6;
+      }
+
+      @media only screen and (min-width: 600px) {
+          .about-container {
+              max-width: 45%; /* Two containers in a row */
+          }
+      }
+
+      @media only screen and (min-width: 900px) {
+          .about-container {
+              max-width: 45%; /* Two containers in a row */
+          }
+      }
+    </style>
+</head>
+<body>
+  <nav>
+      <a href="https://fa9light.github.io/khandu/#!">Home</a>
+      <a href="https://5ce3b52e-d069-4e24-82e2-6c5b138991ec-00-2nect5uo906jl.sisko.replit.dev/">About</a>
+      <a href="#">Contact</a>
+  </nav>
+
+    
+    <div class="about-container">
+        <img src="2.jpeg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+        <div class="about-content">
+            <h1>Electron dog</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+        </div>
+    </div>
+
+  <div class="about-container">
+      <img src="3.jpeg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>asthethic boy</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="1.jpeg" alt="Profile Image" class="profile-image" id="profileImage0" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Alyasa</h1>
+          <p></p>
+      </div>
+  </div>
+
+  
+  <div class="about-container">
+      <img src="4.jpeg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Criminal</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="5.jpeg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Big Bull</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="6.jpeg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Criminal(CEO)</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="your-image.jpg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Your Name</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="your-image.jpg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Your Name</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="your-image.jpg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Your Name</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="your-image.jpg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Your Name</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  <div class="about-container">
+      <img src="your-image.jpg" alt="Profile Image" class="profile-image" id="profileImage1" onclick="rotateImage(1)">
+      <div class="about-content">
+          <h1>Your Name</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero eget urna tempus varius vitae id turpis.</p>
+      </div>
+  </div>
+
+  
+    <script>
+        function rotateImage(index) {
+            const profileImage = document.getElementById('profileImage' + index);
+            profileImage.classList.toggle('rotate');
+        }
+    </script>
+</body>
+</html>
